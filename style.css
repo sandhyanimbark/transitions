@@ -1,0 +1,104 @@
+.on{
+  
+        width: 50px;
+        height: 50px;
+        background: red;
+        transition: width 2s;
+      
+} 
+.on:hover {
+        width: 300px;
+   }
+.pn {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(81, 243, 116);
+    font-weight: bold;
+    border-radius: 34px;
+    padding: 1%;
+    text-align: center;
+    position: relative;
+    animation: mymove 5s infinite;
+  }
+  
+  #div1 {animation-timing-function: linear;}
+ 
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+  }
+
+  .tn{
+    
+        width: 45px;
+        height: 20px;
+        background-color: rgb(217, 255, 0);
+        position: relative;
+        animation-name: example;
+        animation-duration: 4s;
+        animation-iteration-count: 2;
+        animation-direction: alternate-reverse;  
+      
+  }
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    100%  {background-color:blue; left:200px; top:200px;}
+    100%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  #myDIV {
+  
+    background-color: lightblue;
+    width: 70px;
+    height: 67px;
+    overflow: auto;
+  }
+  
+  #myDIV:hover {
+    background-color: coral;
+    width: 600px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 50px;
+  }
+  #section1 {
+    height: 400px;
+    background-color: pink;
+  }
+  
+  #section2 {
+    height: 400px;
+    background-color: yellow;
+  }
+  h1{
+    text-shadow: 2px 2px 5px red;
+    
+  }
+  h2{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  }
+  .di{
+    
+        width: 300px;
+        height: 100px;
+        padding: 15px;
+        background-color: yellow;
+        box-shadow: 10px 10px 5px grey;
+      
+  }
+  div.test {
+    white-space: nowrap; 
+    width: 200px; 
+    overflow: hidden; 
+    border: 1px solid #000000;
+  }
+  
+  div.test:hover {
+    overflow: visible;
+  }
+  p:hover, h1:hover, a:hover {
+    background-color: yellow;
+  }
